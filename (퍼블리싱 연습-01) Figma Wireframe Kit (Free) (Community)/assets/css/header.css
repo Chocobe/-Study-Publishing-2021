@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* 헤더 */
+.header {
+  height: 88px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba(60, 100, 177, 0.06);
+}
+
+/* (헤더) 로고 */
+.header .logo {
+  height: inherit;
+  
+  color: #3C64B1;
+  font-size: 24px;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+
+  transition: all 0.3s;
+}
+
+/* (헤더/로고) hover 효과 */
+.header .logo:hover {
+  transform: scale(1.1);
+}
+
+/* (헤더) 메뉴 */
+.menu {
+  height: 100%;
+}
+
+.menu .menu-list {
+  height: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .menu-list .menu-list-item {
+  height: inherit;
+}
+
+.menu .menu-list .menu-list-item-link {
+  height: inherit;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+
+  transition: all 0.3s;
+}
+
+/* (헤더/메뉴) 리스트 hover 효과 */
+.menu .menu-list .menu-list-item-link:hover {
+  color: #30b646;
+  background-color: rgba(60, 100, 177, 0.2);
+  transform: scale(1.1);
+}
+
+/* (헤더) 계정 */
+.account {
+  display: flex;
+}
+
+.account .account-button {
+  width: 91px;
+  height: 42px;
+  
+  color: #3c64b1;
+  font-size: 14px;
+  font-weight: bold;
+
+  background-color: inherit;
+  outline: none;
+  border: none;
+
+  transition: all 0.3s;
+}
+
+.account .account-button.sign-in {
+
+}
+
+.account .account-button.sign-up {
+  color: #fff;
+  background-color:#3c64b1
+}
+
+/* (헤더/계정) 버튼 hover 효과 */
+.account .account-button.sign-in:hover {
+  color: #30b646;
+}
+
+.account .account-button.sign-up:hover {
+  color: #30b646;
+  background-color: rgba(60, 100, 177, 0.95);
+}
