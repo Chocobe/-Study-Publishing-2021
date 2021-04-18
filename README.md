@@ -42,6 +42,28 @@
 </table>
 
 
+<br/><br/>
+
+
+## 02. [(퍼블리싱 연습-02) Figma Wireframe Kit (Free) (Community)](https://github.com/Chocobe/-Study-Publishing-2021/tree/master/(%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1%20%EC%97%B0%EC%8A%B5-02)%20Figma%20Wireframe%20Kit%20(Free)%20(Community))
+
+<table border="1" style="border-collapse: collapse; text-align:">
+  <!-- 퍼블리싱 연습-02 -->
+  <tr>
+    <th>원본 시안</th>
+    <th>구현 결과</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="./assets/(퍼블리싱%20연습-02)%20Figma%20Wireframe%20Kit%20(Free)%20(Community)%20-%20원본.png" width="400px">
+    </td>
+    <td>
+      <img src="./assets/(퍼블리싱%20연습-02)%20Figma%20Wireframe%20Kit%20(Free)%20(Community).gif" width="400px">
+    </td>
+  </tr>
+</table>
+
+
 <br/>
 
 [🔺 Top](#top)
