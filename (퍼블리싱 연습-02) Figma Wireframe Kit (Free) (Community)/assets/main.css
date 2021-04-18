@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+.main {
+  width: 100%;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+/* 배너 */
+.main__section--banner {
+  width: 100%;
+
+  padding: 135px 0;
+
+  text-align: center;
+  background-color: rgba(60, 100, 177, 0.06);
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__banner-title,
+.main__banner-content,
+.main__banner-action {
+  width: 100%;
+  max-width: 730px;
+}
+
+.main__banner-title {
+  color: #373F41;
+  font-size: 44px;
+  font-weight: 800;
+
+  letter-spacing: 0.2px;
+}
+
+.main__banner-content {
+  margin-top: 32px;
+
+  color: #737B7D;
+  font-size: 16px;
+
+  word-spacing: 2px;
+}
+
+.main__banner-action {
+  margin-top: 56px;
+}
+
+.main__action-start,
+.main__action-learn {
+  margin: 0 12px;
+  padding: 12px 18px;
+
+  transition: all 0.3s;
+}
+
+.main__action-start {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+
+  background-color: #3c64b1;
+
+  border: none;
+  outline: none;
+}
+.main__action-start:active {
+  background-color: rgba(60, 100, 177, 0.8);
+}
+
+.main__action-learn {
+  color: #3c64b1;
+  font-size: 14px;
+  font-weight: 600;
+
+  outline: none;
+  border-color: #3c64b1;
+  border-width: 0.5px;
+  background-color: transparent;
+}
+.main__action-learn:hover {
+  background-color: rgba(60, 100, 177, 0.1);
+}
+.main__action-learn:active {
+  background-color: rgba(60, 100, 177, 0.06);
+}
+
+/* 소개 */
+.main__intro {
+  width: 100%;
+
+  margin-bottom: 48px;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.main__intro-title {
+  margin-top: 75px;
+
+  color: #373F41;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.main__intro-sub-title {
+  margin-top: 24px;
+
+  color: #737B7D;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main__intro-list {
+  margin-top: 22px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 30px;
+}
+
+.main__intro-card {
+  width: 350px;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main__card-icon {
+
+}
+
+.main__card-title {
+  margin-top: 24px;
+
+  color: #373F41;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main__card-content {
+  margin-top: 14px;
+
+  color: #373F41;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main__card-discover,
+.main__card-discover:visited {
+  margin-top: 22px;
+
+  color: #3c64b1;
+  font-size: 14px;
+  font-weight: 800;
+}

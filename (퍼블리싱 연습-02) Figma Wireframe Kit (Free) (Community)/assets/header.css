@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+.header {
+  width: 100%;
+  height: 88px;
+
+  padding: 0 165px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+  background-color: rgba(60, 100, 170, 0.06);
+}
+
+/* logo */
+.header__logo,
+.header__logo:visited {
+  color: #3C64B1;
+  font-size: 24px;
+  font-weight: 800;
+
+  display: flex;
+  align-items: center;
+}
+
+/* 메뉴 */
+.header__menu {
+  display: flex;
+}
+
+.header__menu-item {
+  padding: 0 16px;
+
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+
+  transition: all 0.3s;
+}
+
+.header__menu-item:hover {
+  background-color: rgba(60, 100, 177, 0.1);
+  transform: scale(1.2);
+}
+
+.header__account {
+  display: flex;
+  align-items: center;
+}
+
+.header__log-in {
+  padding: 12px 20px;
+
+  color: #3C64B1;
+  font-weight: 800;
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+
+  transition: all 0.3s;
+}
+.header__log-in:hover {
+  color: #006400;
+  background-color: rgba(60, 100, 177, 0.1);
+}
+.header__log-in:active {
+  background-color: rgba(60, 100, 177, 0.06);
+}
+
+.header__start-now {
+  padding: 12px 18px;
+
+  color: #fff;
+  font-weight: 800;
+  background-color: #3c64b1;
+
+  border: none;
+  outline: none;
+
+  transition: all 0.3s;
+}
+
+.header__start-now:active {
+  background-color: rgba(60, 100, 177, 0.8);
+}

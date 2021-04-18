@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Publishing 연습-02</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/default.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/main.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- 헤더 -->
+      <header class="header">
+        <!-- 로고 -->
+        <a href="#" class="header__logo">
+          Logo
+        </a>
+
+        <!-- 메뉴 -->
+        <nav class="header__menu">
+          <a href="#" class="header__menu-item">Features</a>
+          <a href="#" class="header__menu-item">Pricing</a>
+          <a href="#" class="header__menu-item">Contact</a>
+        </nav>
+
+        <!-- 계정 -->
+        <div class="header__account">
+          <button class="header__log-in">Log In</button>
+          <button class="header__start-now">Start now</button>
+        </div>
+      </header>
+
+      <!-- 메인 -->
+      <main class="main">
+        <!-- 배너 -->
+        <section class="main__section--banner">
+          <h1 class="main__banner-title">
+            Simplify your online shipping for free this month!
+          </h1>
+
+          <p class="main__banner-content">
+            Et has minim elitr intellegat.
+            Mea aeterno eleifend antiopam
+            ad, nam no suscipit quaerendum.
+            At nam minimum ponderum. Est
+            audiam animal molestiae te.
+          </p>
+
+          <div class="main__banner-action">
+            <button class="main__action-start">Start free trial</button>
+            <button class="main__action-learn">Learn more</button>
+          </div>
+        </section>
+
+        <!-- 소개 -->
+        <section class="main__intro">
+          <h1 class="main__intro-title">
+            Grow your business with better Shipping
+          </h1>
+
+          <h2 class="main__intro-sub-title">
+            We help the world’s leading organizations follow their shipping
+          </h2>
+
+          <div class="main__intro-list">
+            <!-- Shipping communication -->
+            <article class="main__intro-card">
+              <div class="main__card-icon">
+                <img src="assets/icons/briefcase.svg" alt="briefcase">
+              </div>
+
+              <h3 class="main__card-title">
+                Shipping communication
+              </h3>
+
+              <p class="main__card-content">
+                At eripuit signiferumque sea,
+                vel ad mucius molestie, cu
+                labitur iuvaret vulputate sed.
+              </p>
+
+              <a href="#" class="main__card-discover">
+                Discover
+              </a>
+            </article>
+
+            <!-- Marketing -->
+            <article class="main__intro-card">
+              <div class="main__card-icon">
+                <img src="assets/icons/briefcase.svg" alt="briefcase">
+              </div>
+
+              <h3 class="main__card-title">
+                Marketing
+              </h3>
+
+              <p class="main__card-content">
+                At eripuit signiferumque sea,
+                vel ad mucius molestie, cu
+                labitur iuvaret vulputate sed.
+              </p>
+
+              <a href="#" class="main__card-discover">
+                Discover
+              </a>
+            </article>
+
+            <!-- Logistic performance -->
+            <article class="main__intro-card">
+              <div class="main__card-icon">
+                <img src="assets/icons/briefcase.svg" alt="briefcase">
+              </div>
+
+              <h3 class="main__card-title">
+                Logistic performance
+              </h3>
+
+              <p class="main__card-content">
+                At eripuit signiferumque sea,
+                vel ad mucius molestie, cu
+                labitur iuvaret vulputate sed.
+              </p>
+
+              <a href="#" class="main__card-discover">
+                Discover
+              </a>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script lang="javascript">
+      let count = 3;
+      let intervalId = -9999;
+
+      function cloneElement() {
+        if(count > 4) {
+          window.clearInterval(intervalId);
+          return;
+        }
+
+        const cardElement = document.querySelector(".main__intro-card");
+        const clonedElement = cardElement.cloneNode(true);
+
+        const introListElement = document.querySelector(".main__intro-list");
+        introListElement.appendChild(clonedElement);
+
+        count++;
+      }
+
+      function initApp() {
+        intervalId = window.setInterval(() => {
+          cloneElement();
+        }, 2000);
+      }
+
+      initApp();
+    </script>
+  </body>
+</html>
