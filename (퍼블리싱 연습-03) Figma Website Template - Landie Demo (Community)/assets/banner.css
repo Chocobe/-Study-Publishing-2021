@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.banner {
+  width: 100%;
+  height: 1110px;
+
+  position: relative;
+}
+
+.banner__bg-img {
+  height: 1161px;
+
+  position: absolute;
+  bottom: 0;
+  left: 28.9583%;
+
+  z-index: -1;
+}
+
+.banner__article {
+  width: 100%;
+  height: 1110px;
+
+  padding-top: 27.2972%;
+
+  padding: 27.2972% 0 0 11.3194%;
+}
+
+.banner__article__title {
+  width: 100%;
+  max-width: 550px;
+
+  color: #091133;
+  font-size: 50px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.banner__article__content {
+  width: 100%;
+  max-width: 550px;
+
+  margin-top: 20px;
+
+  color: #505F98;
+  font-size: 18px;
+}
+
+.banner__buttons {
+  width: 100%;
+
+  margin-top: 69px;
+}
+
+.banner__buttons__purchase,
+.banner__buttons__learn {
+  width: 189.13px;
+  height: 36px;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  outline: none;
+  border: none;
+
+  transition: background-color 0.3s;
+}
+
+.banner__buttons__purchase {
+  margin-right: 30px;
+
+  color: #fff;
+  background-color: #111B47;
+}
+
+.banner__buttons__learn {
+  color: #091133;
+  
+  border: 2px solid #091133;
+  background-color: transparent;
+}
+
+.banner__buttons__purchase:hover {
+  background-color: #1c2a70;
+}
+.banner__buttons__purchase:active {
+  background-color: #18245c;
+}
+
+.banner__buttons__learn:hover {
+  background-color: rgba(28, 42, 112, 0.05);
+}
+.banner__buttons__learn:active {
+  background-color: rgba(28, 42, 112, 0.1);
+}

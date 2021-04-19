@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.section-sub {
+  padding: 100px 0;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.section-sub__img {
+  margin: 0 auto;
+}
+
+.section-sub__article {
+  width: 100%;
+  max-width: 445px;
+
+  margin-right: 165px;
+}
+
+.section-sub__article__title {
+  color: #091133;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-sub__article__content {
+  margin-top: 16px;
+  
+  color: #6F7CB2;
+  font-size: 16px;
+}

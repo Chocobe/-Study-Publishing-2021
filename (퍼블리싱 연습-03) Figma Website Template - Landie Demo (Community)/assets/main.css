@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.section-main {
+  width: 100%;
+  
+  padding: 110px 165px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* 요약 */
+.section-main__summary {
+  width: 540px;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.section-main__summary__title {
+  color: #091133;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-main__summary__content {
+  margin-top: 16px;
+  
+  color: #6F7CB2;
+  font-size: 16px;
+}
+
+/* 상세 */
+.section-main__article {
+  width: calc(50% - 15px);
+
+  margin-top: 80px;
+}
+
+.section-main__article__icon {
+
+}
+
+.section-main__article__title {
+  margin-top: 14px;
+
+  color: #091133;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section-main__article__content {
+  margin-top: 6px;
+}

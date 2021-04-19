@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.section-pricing {
+  width: 100%;
+
+  padding: 237px 0 172px;
+  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-image: url("./images/bg_img_article_05.png");
+  background-position: top center;
+}
+
+.section-pricing__title {  
+  color: #091133;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-pricing__content,
+.section-pricing__content {
+  width: 100%;
+  max-width: 600px;
+
+  margin-top: 16px;
+
+  color: #6F7CB2;
+  font-size: 16px;
+  text-align: center;
+}
+
+.section-pricing__content--dark {  
+  margin-top: 10px;
+
+  color: #37447E;
+}
+
+.section-pricing__fee {
+  margin-top: 36px;
+
+  font-size: 50px;
+}
+
+.section-pricing__notice {
+  margin-top: 60px;
+  
+  color: #5D6970;
+  font-size: 14px;
+}
+
+.section-pricing__button {
+  width: 190px;
+  height: 32px;
+
+  margin-top: 9px;
+
+  color: #fff;
+  background-color: #111B47;
+
+  outline: none;
+  border: none;
+}
