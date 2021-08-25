@@ -16,6 +16,13 @@
 4. ``Vue`` + ``Typescript`` + ``SCSS`` + ``템플릿`` + ``반응형`` 으로 작성하기 (16 ~ 20번 프로젝트)
 5. ``제이펍`` 출판사의 ``CSS 설계 실전 가이드`` 책 정독
 
+<br/>
+
+* 2021. 08. 25. 연습 재개
+* YouTube 의 ``Online Tutorials`` 채널구독
+* Online Tutorials: [https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
+
+
 
 
 <br/><br/>
@@ -29,7 +36,7 @@
 <table border="1" style="border-collapse: collapse; text-align:">
   <!-- 퍼블리싱 연습-01 -->
   <tr>
-    <th>원본 시안</th>
+    <th>원본 시안 (또는 URL)</th>
     <th>구현 결과</th>
   </tr>
   <tr>
