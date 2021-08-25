@@ -33,10 +33,10 @@
 
 ## 01. [(퍼블리싱 연습-01) Figma Wireframe Kit (Free) (Community)](https://github.com/Chocobe/-Study-Publishing-2021/tree/master/(%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1%20%EC%97%B0%EC%8A%B5-01)%20Figma%20Wireframe%20Kit%20(Free)%20(Community))
 
-<table border="1" style="border-collapse: collapse; text-align:">
+<table border="1" style="border-collapse: collapse;">
   <!-- 퍼블리싱 연습-01 -->
   <tr>
-    <th>원본 시안 (또는 URL)</th>
+    <th>원본 시안</th>
     <th>구현 결과</th>
   </tr>
   <tr>
@@ -55,7 +55,7 @@
 
 ## 02. [(퍼블리싱 연습-02) Figma Wireframe Kit (Free) (Community)](https://github.com/Chocobe/-Study-Publishing-2021/tree/master/(%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1%20%EC%97%B0%EC%8A%B5-02)%20Figma%20Wireframe%20Kit%20(Free)%20(Community))
 
-<table border="1" style="border-collapse: collapse; text-align:">
+<table border="1" style="border-collapse: collapse;">
   <!-- 퍼블리싱 연습-02 -->
   <tr>
     <th>원본 시안</th>
@@ -77,7 +77,7 @@
 
 ## 03. [(퍼블리싱 연습-03) Figma Website Template - Landie Demo (Community)](https://github.com/Chocobe/-Study-Publishing-2021/tree/master/(%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1%20%EC%97%B0%EC%8A%B5-03)%20Figma%20Website%20Template%20-%20Landie%20Demo%20(Community))
 
-<table border="1" style="border-collapse: collapse; text-align:">
+<table border="1" style="border-collapse: collapse;">
   <!-- 퍼블리싱 연습-03 -->
   <tr>
     <th>원본 시안</th>
@@ -102,4 +102,19 @@
 
 
 
+## 04. (퍼블리싱 연습-01) Creative CSS Menu Hover Effects - Html CSS
 
+<table border="1" style="border-collapse: collapse;">
+  <tr>
+    <th>원본 링크</th>
+    <th>구현 결과</th>
+  </tr>
+  <tr>
+    <td>
+      URL: <a href="https://www.youtube.com/watch?v=TPh8fLeahqM&t=74s">https://www.youtube.com/watch?v=TPh8fLeahqM&t=74s</a>
+    </td>
+    <td>
+      <img src="./assets/(퍼블리싱%20연습-04)%20menuHoverEffects.gif" width="400px">
+    </td>
+  </tr>
+</table>
