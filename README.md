@@ -118,3 +118,39 @@
     </td>
   </tr>
 </table>
+
+
+
+<br/>
+
+[🔺 Top](#top)
+
+<br/>
+
+
+
+## 05. (퍼블리싱 연습-05) Dropdown Menu using Html CSS Vanilla Javascript
+
+<table border="1" style="border-collapse: collapse;">
+  <tr>
+    <th>원본 링크</th>
+    <th>구현 결과</th>
+  </tr>
+
+  <tr>
+    <td>
+      URL: <a href="https://www.youtube.com/watch?v=zf1C1peIk8I">https://www.youtube.com/watch?v=zf1C1peIk8I</a>
+    </td>
+    <td>
+      <img src="./assets/dropdownMenu.gif" width="400px">
+    </td>
+  </tr>
+</table>
+
+
+
+<br/>
+
+[🔺 Top](#top)
+
+<br/>
