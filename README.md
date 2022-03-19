@@ -142,7 +142,7 @@
       URL: <a href="https://www.youtube.com/watch?v=zf1C1peIk8I">https://www.youtube.com/watch?v=zf1C1peIk8I</a>
     </td>
     <td>
-      <img src="./assets/dropdownMenu.gif" width="400px">
+      <img src="./assets/(퍼블리싱%20연습-05)%20DropdownMenu.gif" width="400px">
     </td>
   </tr>
 </table>
@@ -154,3 +154,23 @@
 [🔺 Top](#top)
 
 <br/>
+
+
+
+## 06. (퍼블리싱 연습-06) Glowing Liquid Bowl
+
+<table border="1" style="border-collapse: collapse;">
+  <tr>
+    <th>원본 링크</th>
+    <td>구현 결과</td>
+  </tr>
+
+  <tr>
+    <td style="width: 350px;">
+      URL: <a href="https://www.youtube.com/watch?v=DkwvTVbY7HQ&list=PLv1RSNfKxO5bCVCGNQCkQmEQar-cTiSJ9&index=1&t=28s">https://www.youtube.com/watch?v=DkwvTVbY7HQ&list=PLv1RSNfKxO5bCVCGNQCkQmEQar-cTiSJ9&index=1&t=28s</a>
+    </td>
+    <td>
+      <img src="./assets/(퍼블리싱%20연습-06)%20GlowingLiquidBowl.gif" width="400px">
+    </td>
+  </tr>
+</table>
