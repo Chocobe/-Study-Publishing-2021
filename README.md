@@ -174,3 +174,31 @@
     </td>
   </tr>
 </table>
+
+
+
+<br/>
+
+[🔺 Top](#top)
+
+<br/>
+
+
+
+## 07. (퍼블리싱 연습-07) IntersectionObserver
+
+<table border="1" style="border-collapse: collapse;">
+  <tr>
+    <th>참고 링크</th>
+    <th>구현 결과</th>
+  </tr>
+
+  <tr>
+    <td style="width: 350px;">
+      URL: <a href="http://blog.hyeyoonjung.com/2019/01/09/intersectionobserver-tutorial/">http://blog.hyeyoonjung.com/2019/01/09/intersectionobserver-tutorial/</a>
+    </td>
+    <td>
+      <img src="./assets/(퍼블리싱%20연습-07)%20IntersectionObserver.gif">
+    </td>
+  </tr>
+</table>
