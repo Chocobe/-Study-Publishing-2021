@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intersectionObserver {
+  width: 100%;
+  padding: 20px 40px;
+
+  overflow-x: hidden;
+}
+
+.intersectionObserver-title {
+  text-align: center;
+}
+
+.intersectionObserver-section-article {
+  margin-top: 40px;
+}
+
+.intersectionObserver-section-article-text {
+  transform: translateY(20px);
+  visibility: hidden;
+  opacity: 0;
+
+  transition: all 1s;
+}
+
+.text_active {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.intersectionObserver-section-article-img {
+  margin-top: 20px;
+  width: 100%;
+
+  transform: translateY(-20px);
+  visibility: hidden;
+  opacity: 0;
+
+  transition: all 1s;
+}
+
+.img_active {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
